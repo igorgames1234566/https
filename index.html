@@ -1,0 +1,26 @@
+<html>
+	<head>
+		<title>menu</title>
+		<style>
+			div{
+				background-color: white;
+				border-radius: 8px;
+				text-align: center;
+				position: relative;
+				bottom: 15px;
+			}
+		</style>
+	</head>
+	<body style="background-color: gray;">
+		<h1 style="text-align: center;">menu</h1>
+		<div>
+			<button id="button_1">mygame</button>
+			<script>
+				function run() {
+					location.href = 'mygame/';
+				}
+				document.getElementById('button_1').addEventListener('click',run);
+			</script>
+		</div>
+	</body>
+</html>
